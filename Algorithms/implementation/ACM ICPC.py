@@ -25,10 +25,14 @@ Sample Input
 11100
 11010
 00101
+
+
 Sample Output
 
 5
 2
+
+
 Explanation
 
 (1, 3) and (3, 4) know all the 5 topics. So the maximal topics a 2-person team knows is 5, and only 2 teams can achieve this.

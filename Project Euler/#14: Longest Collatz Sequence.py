@@ -60,8 +60,8 @@ def hackerank():
         getMax(N)
 
 if __name__ == '__main__':
-    start = timeit.default_timer()
+    #start = timeit.default_timer()
     calcNumbers()
-    stop = timeit.default_timer()
-    print(stop - start)
+    #stop = timeit.default_timer()
+    #print(stop - start)
     hackerank()

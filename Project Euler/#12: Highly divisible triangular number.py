@@ -1,5 +1,5 @@
 """
-https://www.hackerrank.com/contests/projecteuler/challenges/euler012/submissions/code/7488185
+https://www.hackerrank.com/contests/projecteuler/challenges/euler012
 """
 import math
 def sieve(n):

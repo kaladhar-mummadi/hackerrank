@@ -1,3 +1,6 @@
+"""
+https://www.hackerrank.com/contests/master/challenges/even-tree?h_r=internal-search
+"""
 def children(adjacency_list,index, number_of_nodes):
     childNodes = adjacency_list[index]
     if len(childNodes) == 0:

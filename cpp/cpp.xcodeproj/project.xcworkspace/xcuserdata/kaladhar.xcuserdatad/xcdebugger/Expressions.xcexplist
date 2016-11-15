@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Solution::takeInput():main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "arr[0][1]">
+            </PersistentString>
+            <PersistentString
+               value = "arr[0][2]">
+            </PersistentString>
+            <PersistentString
+               value = "q_arr[0][0]">
+            </PersistentString>
+            <PersistentString
+               value = "arr[q_arr[i][0]][q_arr[i][1]]">
+            </PersistentString>
+            <PersistentString
+               value = "vary_size_arr[1]">
+            </PersistentString>
+            <PersistentString
+               value = "(arr[0])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

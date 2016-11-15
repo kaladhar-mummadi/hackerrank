@@ -4,175 +4,185 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Arrays Introduction.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
-		</dict>
-		<key>Attribute Parser.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>16</integer>
-		</dict>
-		<key>Basic Data Types.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>Conditional Statements.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>For Loop.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>Functions.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
-		</dict>
-		<key>Input and Output.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>Operator Overloading.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>10</integer>
-		</dict>
-		<key>Overload Operators.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>12</integer>
-		</dict>
-		<key>Pointer.xcscheme</key>
+		<key>Connecting Towns.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
-		<key>Preprocessor Solution.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
-		</dict>
-		<key>Say Hello, World! With C++.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>StringStream.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>15</integer>
-		</dict>
-		<key>Strings.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>14</integer>
-		</dict>
-		<key>Variable Sized Arrays.xcscheme</key>
+		<key>Diwali Lights.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
-		<key>Virtual Functions.xcscheme</key>
+		<key>Even Odd Query.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>15</integer>
 		</dict>
-		<key>cpp.xcscheme</key>
+		<key>Find the Point.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Handshake.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>K Candy Store.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>Leonardo's Prime Factors.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Mathematics.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Maximum Draws.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Possible Path.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Restaurant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Reverse Game.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Sherlock and Divisors.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>Sherlock and Moving Tiles.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Sherlock and Permutations.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>Strange Grid Again.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Summing the N series.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>nCr table.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>903B567B1DD392E200A0F59A</key>
+		<key>9099C93E1DD4FBC000473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9099C9771DD584AB00473F8D</key>
+		<key>9099C94D1DD4FC1A00473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9099C9A31DD64A6800473F8D</key>
+		<key>9099C95E1DD5008100473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27D771DC60DC700ADD756</key>
+		<key>9099C96C1DD5825E00473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27D851DC60E1200ADD756</key>
+		<key>9099C9821DD5DDF600473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27D901DC60E6C00ADD756</key>
+		<key>9099C98D1DD6386100473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27D9B1DC6102200ADD756</key>
+		<key>9099C9981DD63F8600473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27DA61DC6150000ADD756</key>
+		<key>9099C9AE1DD65ACC00473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27DB11DC6166100ADD756</key>
+		<key>9099C9B91DD65E2D00473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27DBC1DC6182500ADD756</key>
+		<key>9099C9C51DD662C400473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27DC71DC619D200ADD756</key>
+		<key>9099C9D01DD673DF00473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27DD21DC61ABA00ADD756</key>
+		<key>9099C9DB1DD6E69600473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27DDD1DC61E5000ADD756</key>
+		<key>9099C9E61DD6E8CF00473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27DE81DC6292000ADD756</key>
+		<key>9099C9F11DD6F4BA00473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27DF31DC63E3100ADD756</key>
+		<key>9099C9FC1DD7FA4400473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90D27DFE1DC65CCA00ADD756</key>
+		<key>9099CA071DD8096C00473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90FB63661DCF883F0083D875</key>
+		<key>9099CA131DD84F0E00473F8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9099CA241DDB9DBA00473F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

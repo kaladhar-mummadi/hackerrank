@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Solution::takeInput():main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "numbers[left-1]">
+            </PersistentString>
+            <PersistentString
+               value = "getSign(q[0])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Solution::printPascal(int):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "n+1-i">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Solution::primeFactors(long):main.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

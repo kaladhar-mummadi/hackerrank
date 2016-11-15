@@ -36,7 +36,7 @@ def primeFactors(N):
     else:
         print(factors[-1])
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     getPrimeNumbers()
     T = int(input())
     for _ in range(T):

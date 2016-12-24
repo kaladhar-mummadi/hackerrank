@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>Die Hard 3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>Diwali Lights.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -19,15 +24,30 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+		<key>Filling Jars.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>Find the Point.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Halloween party.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>Handshake.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>Is Fibo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
 		</dict>
 		<key>K Candy Store.xcscheme</key>
 		<dict>
@@ -79,10 +99,20 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>Special Multiple.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>Strange Grid Again.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>10</integer>
+		</dict>
+		<key>Sumar and the Floating Rocks.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
 		</dict>
 		<key>Summing the N series.xcscheme</key>
 		<dict>
@@ -97,6 +127,31 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>9016CBAA1E0BE251003DC3ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9016CBB51E0BF714003DC3ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9016CBC01E0BF8E5003DC3ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9016CBCB1E0BFAD9003DC3ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>907051C21E0E63C800DF4413</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9099C93E1DD4FBC000473F8D</key>
 		<dict>
 			<key>primary</key>
@@ -183,6 +238,11 @@
 			<true/>
 		</dict>
 		<key>9099CA241DDB9DBA00473F8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90C6682B1DDCD4A9009E7125</key>
 		<dict>
 			<key>primary</key>
 			<true/>

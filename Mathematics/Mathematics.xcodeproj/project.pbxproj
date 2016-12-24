@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9016CBAE1E0BE251003DC3ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9016CBAD1E0BE251003DC3ED /* main.cpp */; };
+		9016CBB91E0BF714003DC3ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9016CBB81E0BF714003DC3ED /* main.cpp */; };
+		9016CBC41E0BF8E5003DC3ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9016CBC31E0BF8E5003DC3ED /* main.cpp */; };
+		9016CBCF1E0BFAD9003DC3ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9016CBCE1E0BFAD9003DC3ED /* main.cpp */; };
+		907051C61E0E63C800DF4413 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 907051C51E0E63C800DF4413 /* main.cpp */; };
 		9099C9431DD4FBC000473F8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9099C9421DD4FBC000473F8D /* main.cpp */; };
 		9099C9591DD4FCF400473F8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9099C9581DD4FCF400473F8D /* main.cpp */; };
 		9099C9681DD5009F00473F8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9099C9671DD5009F00473F8D /* main.cpp */; };
@@ -25,9 +30,55 @@
 		9099CA0B1DD8096C00473F8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9099CA0A1DD8096C00473F8D /* main.cpp */; };
 		9099CA171DD84F0E00473F8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9099CA161DD84F0E00473F8D /* main.cpp */; };
 		9099CA281DDB9DBA00473F8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9099CA271DDB9DBA00473F8D /* main.cpp */; };
+		90C6682F1DDCD4A9009E7125 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C6682E1DDCD4A9009E7125 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		9016CBA91E0BE251003DC3ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9016CBB41E0BF714003DC3ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9016CBBF1E0BF8E5003DC3ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9016CBCA1E0BFAD9003DC3ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		907051C11E0E63C800DF4413 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9099C93D1DD4FBC000473F8D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,9 +241,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		90C6682A1DDCD4A9009E7125 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9016CBAB1E0BE251003DC3ED /* Die Hard 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Die Hard 3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9016CBAD1E0BE251003DC3ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9016CBB61E0BF714003DC3ED /* Halloween party */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Halloween party"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9016CBB81E0BF714003DC3ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9016CBC11E0BF8E5003DC3ED /* Filling Jars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Filling Jars"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9016CBC31E0BF8E5003DC3ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9016CBCC1E0BFAD9003DC3ED /* Is Fibo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Is Fibo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9016CBCE1E0BFAD9003DC3ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		907051C31E0E63C800DF4413 /* Sumar and the Floating Rocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sumar and the Floating Rocks"; sourceTree = BUILT_PRODUCTS_DIR; };
+		907051C51E0E63C800DF4413 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9099C93F1DD4FBC000473F8D /* Mathematics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mathematics; sourceTree = BUILT_PRODUCTS_DIR; };
 		9099C9421DD4FBC000473F8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9099C94E1DD4FC1A00473F8D /* Find the Point */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Find the Point"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -230,9 +300,46 @@
 		9099CA161DD84F0E00473F8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9099CA251DDB9DBA00473F8D /* K Candy Store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "K Candy Store"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9099CA271DDB9DBA00473F8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		90C6682C1DDCD4A9009E7125 /* Special Multiple */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Special Multiple"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C6682E1DDCD4A9009E7125 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9016CBA81E0BE251003DC3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9016CBB31E0BF714003DC3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9016CBBE1E0BF8E5003DC3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9016CBC91E0BFAD9003DC3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907051C01E0E63C800DF4413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9099C93C1DD4FBC000473F8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,9 +466,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90C668291DDCD4A9009E7125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9016CBAC1E0BE251003DC3ED /* Die Hard 3 */ = {
+			isa = PBXGroup;
+			children = (
+				9016CBAD1E0BE251003DC3ED /* main.cpp */,
+			);
+			name = "Die Hard 3";
+			path = "../Die Hard 3";
+			sourceTree = "<group>";
+		};
+		9016CBB71E0BF714003DC3ED /* Halloween party */ = {
+			isa = PBXGroup;
+			children = (
+				9016CBB81E0BF714003DC3ED /* main.cpp */,
+			);
+			name = "Halloween party";
+			path = "../Halloween party";
+			sourceTree = "<group>";
+		};
+		9016CBC21E0BF8E5003DC3ED /* Filling Jars */ = {
+			isa = PBXGroup;
+			children = (
+				9016CBC31E0BF8E5003DC3ED /* main.cpp */,
+			);
+			name = "Filling Jars";
+			path = "../Filling Jars";
+			sourceTree = "<group>";
+		};
+		9016CBCD1E0BFAD9003DC3ED /* Is Fibo */ = {
+			isa = PBXGroup;
+			children = (
+				9016CBCE1E0BFAD9003DC3ED /* main.cpp */,
+			);
+			name = "Is Fibo";
+			path = "../Is Fibo";
+			sourceTree = "<group>";
+		};
+		907051C41E0E63C800DF4413 /* Sumar and the Floating Rocks */ = {
+			isa = PBXGroup;
+			children = (
+				907051C51E0E63C800DF4413 /* main.cpp */,
+			);
+			path = "Sumar and the Floating Rocks";
+			sourceTree = "<group>";
+		};
 		9099C9361DD4FBC000473F8D = {
 			isa = PBXGroup;
 			children = (
@@ -369,6 +527,7 @@
 				9099C9C11DD6603800473F8D /* mylib.h */,
 				9099C9551DD4FC9400473F8D /* Fundamentals */,
 				9099C9411DD4FBC000473F8D /* Mathematics */,
+				907051C41E0E63C800DF4413 /* Sumar and the Floating Rocks */,
 				9099C9401DD4FBC000473F8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -394,6 +553,12 @@
 				9099CA081DD8096C00473F8D /* Even Odd Query */,
 				9099CA141DD84F0E00473F8D /* nCr table */,
 				9099CA251DDB9DBA00473F8D /* K Candy Store */,
+				90C6682C1DDCD4A9009E7125 /* Special Multiple */,
+				9016CBAB1E0BE251003DC3ED /* Die Hard 3 */,
+				9016CBB61E0BF714003DC3ED /* Halloween party */,
+				9016CBC11E0BF8E5003DC3ED /* Filling Jars */,
+				9016CBCC1E0BFAD9003DC3ED /* Is Fibo */,
+				907051C31E0E63C800DF4413 /* Sumar and the Floating Rocks */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -409,6 +574,11 @@
 		9099C9551DD4FC9400473F8D /* Fundamentals */ = {
 			isa = PBXGroup;
 			children = (
+				9016CBCD1E0BFAD9003DC3ED /* Is Fibo */,
+				9016CBC21E0BF8E5003DC3ED /* Filling Jars */,
+				9016CBB71E0BF714003DC3ED /* Halloween party */,
+				9016CBAC1E0BE251003DC3ED /* Die Hard 3 */,
+				90C6682D1DDCD4A9009E7125 /* Special Multiple */,
 				9099CA261DDB9DBA00473F8D /* K Candy Store */,
 				9099CA091DD8096C00473F8D /* Even Odd Query */,
 				9099C9FE1DD7FA4400473F8D /* Sherlock and Permutations */,
@@ -587,9 +757,103 @@
 			path = "../K Candy Store";
 			sourceTree = "<group>";
 		};
+		90C6682D1DDCD4A9009E7125 /* Special Multiple */ = {
+			isa = PBXGroup;
+			children = (
+				90C6682E1DDCD4A9009E7125 /* main.cpp */,
+			);
+			name = "Special Multiple";
+			path = "../Special Multiple";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9016CBAA1E0BE251003DC3ED /* Die Hard 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9016CBB11E0BE251003DC3ED /* Build configuration list for PBXNativeTarget "Die Hard 3" */;
+			buildPhases = (
+				9016CBA71E0BE251003DC3ED /* Sources */,
+				9016CBA81E0BE251003DC3ED /* Frameworks */,
+				9016CBA91E0BE251003DC3ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Die Hard 3";
+			productName = "Die Hard 3";
+			productReference = 9016CBAB1E0BE251003DC3ED /* Die Hard 3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9016CBB51E0BF714003DC3ED /* Halloween party */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9016CBBA1E0BF714003DC3ED /* Build configuration list for PBXNativeTarget "Halloween party" */;
+			buildPhases = (
+				9016CBB21E0BF714003DC3ED /* Sources */,
+				9016CBB31E0BF714003DC3ED /* Frameworks */,
+				9016CBB41E0BF714003DC3ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Halloween party";
+			productName = "Halloween party";
+			productReference = 9016CBB61E0BF714003DC3ED /* Halloween party */;
+			productType = "com.apple.product-type.tool";
+		};
+		9016CBC01E0BF8E5003DC3ED /* Filling Jars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9016CBC51E0BF8E5003DC3ED /* Build configuration list for PBXNativeTarget "Filling Jars" */;
+			buildPhases = (
+				9016CBBD1E0BF8E5003DC3ED /* Sources */,
+				9016CBBE1E0BF8E5003DC3ED /* Frameworks */,
+				9016CBBF1E0BF8E5003DC3ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Filling Jars";
+			productName = "Filling Jars";
+			productReference = 9016CBC11E0BF8E5003DC3ED /* Filling Jars */;
+			productType = "com.apple.product-type.tool";
+		};
+		9016CBCB1E0BFAD9003DC3ED /* Is Fibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9016CBD01E0BFAD9003DC3ED /* Build configuration list for PBXNativeTarget "Is Fibo" */;
+			buildPhases = (
+				9016CBC81E0BFAD9003DC3ED /* Sources */,
+				9016CBC91E0BFAD9003DC3ED /* Frameworks */,
+				9016CBCA1E0BFAD9003DC3ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Is Fibo";
+			productName = "Is Fibo";
+			productReference = 9016CBCC1E0BFAD9003DC3ED /* Is Fibo */;
+			productType = "com.apple.product-type.tool";
+		};
+		907051C21E0E63C800DF4413 /* Sumar and the Floating Rocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907051C91E0E63C900DF4413 /* Build configuration list for PBXNativeTarget "Sumar and the Floating Rocks" */;
+			buildPhases = (
+				907051BF1E0E63C800DF4413 /* Sources */,
+				907051C01E0E63C800DF4413 /* Frameworks */,
+				907051C11E0E63C800DF4413 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sumar and the Floating Rocks";
+			productName = "Sumar and the Floating Rocks";
+			productReference = 907051C31E0E63C800DF4413 /* Sumar and the Floating Rocks */;
+			productType = "com.apple.product-type.tool";
+		};
 		9099C93E1DD4FBC000473F8D /* Mathematics */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9099C9461DD4FBC000473F8D /* Build configuration list for PBXNativeTarget "Mathematics" */;
@@ -896,6 +1160,23 @@
 			productReference = 9099CA251DDB9DBA00473F8D /* K Candy Store */;
 			productType = "com.apple.product-type.tool";
 		};
+		90C6682B1DDCD4A9009E7125 /* Special Multiple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C668321DDCD4A9009E7125 /* Build configuration list for PBXNativeTarget "Special Multiple" */;
+			buildPhases = (
+				90C668281DDCD4A9009E7125 /* Sources */,
+				90C668291DDCD4A9009E7125 /* Frameworks */,
+				90C6682A1DDCD4A9009E7125 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Special Multiple";
+			productName = "Special Multiple";
+			productReference = 90C6682C1DDCD4A9009E7125 /* Special Multiple */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -905,6 +1186,31 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "kaladhar reddy";
 				TargetAttributes = {
+					9016CBAA1E0BE251003DC3ED = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7LM26N4V48;
+						ProvisioningStyle = Automatic;
+					};
+					9016CBB51E0BF714003DC3ED = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7LM26N4V48;
+						ProvisioningStyle = Automatic;
+					};
+					9016CBC01E0BF8E5003DC3ED = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7LM26N4V48;
+						ProvisioningStyle = Automatic;
+					};
+					9016CBCB1E0BFAD9003DC3ED = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7LM26N4V48;
+						ProvisioningStyle = Automatic;
+					};
+					907051C21E0E63C800DF4413 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7LM26N4V48;
+						ProvisioningStyle = Automatic;
+					};
 					9099C93E1DD4FBC000473F8D = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
@@ -977,6 +1283,10 @@
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
+					90C6682B1DDCD4A9009E7125 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 9099C93A1DD4FBC000473F8D /* Build configuration list for PBXProject "Mathematics" */;
@@ -1009,11 +1319,57 @@
 				9099CA071DD8096C00473F8D /* Even Odd Query */,
 				9099CA131DD84F0E00473F8D /* nCr table */,
 				9099CA241DDB9DBA00473F8D /* K Candy Store */,
+				90C6682B1DDCD4A9009E7125 /* Special Multiple */,
+				9016CBAA1E0BE251003DC3ED /* Die Hard 3 */,
+				9016CBB51E0BF714003DC3ED /* Halloween party */,
+				9016CBC01E0BF8E5003DC3ED /* Filling Jars */,
+				9016CBCB1E0BFAD9003DC3ED /* Is Fibo */,
+				907051C21E0E63C800DF4413 /* Sumar and the Floating Rocks */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9016CBA71E0BE251003DC3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9016CBAE1E0BE251003DC3ED /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9016CBB21E0BF714003DC3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9016CBB91E0BF714003DC3ED /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9016CBBD1E0BF8E5003DC3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9016CBC41E0BF8E5003DC3ED /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9016CBC81E0BFAD9003DC3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9016CBCF1E0BFAD9003DC3ED /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907051BF1E0E63C800DF4413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907051C61E0E63C800DF4413 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9099C93B1DD4FBC000473F8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1158,9 +1514,107 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90C668281DDCD4A9009E7125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C6682F1DDCD4A9009E7125 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9016CBAF1E0BE251003DC3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9016CBB01E0BE251003DC3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9016CBBB1E0BF714003DC3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9016CBBC1E0BF714003DC3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9016CBC61E0BF8E5003DC3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9016CBC71E0BF8E5003DC3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9016CBD11E0BFAD9003DC3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9016CBD21E0BFAD9003DC3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		907051C71E0E63C800DF4413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		907051C81E0E63C800DF4413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9099C9441DD4FBC000473F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1500,9 +1954,67 @@
 			};
 			name = Release;
 		};
+		90C668301DDCD4A9009E7125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90C668311DDCD4A9009E7125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9016CBB11E0BE251003DC3ED /* Build configuration list for PBXNativeTarget "Die Hard 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9016CBAF1E0BE251003DC3ED /* Debug */,
+				9016CBB01E0BE251003DC3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9016CBBA1E0BF714003DC3ED /* Build configuration list for PBXNativeTarget "Halloween party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9016CBBB1E0BF714003DC3ED /* Debug */,
+				9016CBBC1E0BF714003DC3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9016CBC51E0BF8E5003DC3ED /* Build configuration list for PBXNativeTarget "Filling Jars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9016CBC61E0BF8E5003DC3ED /* Debug */,
+				9016CBC71E0BF8E5003DC3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9016CBD01E0BFAD9003DC3ED /* Build configuration list for PBXNativeTarget "Is Fibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9016CBD11E0BFAD9003DC3ED /* Debug */,
+				9016CBD21E0BFAD9003DC3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907051C91E0E63C900DF4413 /* Build configuration list for PBXNativeTarget "Sumar and the Floating Rocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907051C71E0E63C800DF4413 /* Debug */,
+				907051C81E0E63C800DF4413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9099C93A1DD4FBC000473F8D /* Build configuration list for PBXProject "Mathematics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1645,6 +2157,7 @@
 				9099CA021DD7FA4400473F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9099CA0C1DD8096C00473F8D /* Build configuration list for PBXNativeTarget "Even Odd Query" */ = {
 			isa = XCConfigurationList;
@@ -1653,6 +2166,7 @@
 				9099CA0E1DD8096C00473F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9099CA181DD84F0E00473F8D /* Build configuration list for PBXNativeTarget "nCr table" */ = {
 			isa = XCConfigurationList;
@@ -1661,6 +2175,7 @@
 				9099CA1A1DD84F0E00473F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9099CA291DDB9DBA00473F8D /* Build configuration list for PBXNativeTarget "K Candy Store" */ = {
 			isa = XCConfigurationList;
@@ -1669,6 +2184,16 @@
 				9099CA2B1DDB9DBA00473F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C668321DDCD4A9009E7125 /* Build configuration list for PBXNativeTarget "Special Multiple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C668301DDCD4A9009E7125 /* Debug */,
+				90C668311DDCD4A9009E7125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

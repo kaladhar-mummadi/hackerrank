@@ -1,6 +1,5 @@
 import math
 def sieve(n):
-    #n = 50
     arr = [True]*(n + 1)
     res = []
     p = 2
@@ -20,25 +19,28 @@ def sieve(n):
         p += 1
     return res
 def getRecurringLength(primes):
-    res = [0]*10000
+    res = [0]*10001
+    res[3] = 2
     for denominator in primes:
-        # if denominator%2 ==0 or denominator %5 == 0 or denominator %10 == 0:
-        #     res.append(0)
-        #     continue
+        if res[denominator] != 0 :
+            continue
         repeatedNumbers = []
+        checkAlreadyCalculated = [False] * 100000
         quotient = 1
         numerator = quotient * 10
         repeatedLength = 0
-        while numerator not in repeatedNumbers:
+        while checkAlreadyCalculated[numerator] == False:
             remainder = numerator % denominator
             repeatedNumbers.append(numerator)
+            checkAlreadyCalculated[numerator] = True
             repeatedLength += 1
             if remainder == 0:
+                numerator = repeatedNumbers[0]
                 break
             numerator = remainder * 10
-
         firstIndex = repeatedNumbers.index(numerator)
-        res[denominator] = repeatedLength - firstIndex
+        length = repeatedLength - firstIndex
+        res[denominator] = length
     return res
 def getMaxBeforeThisNum(arr, N):
     max = 0

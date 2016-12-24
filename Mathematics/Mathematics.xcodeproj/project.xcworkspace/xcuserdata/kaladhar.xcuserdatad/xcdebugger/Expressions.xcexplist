@@ -3,21 +3,21 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "Solution::takeInput():main.cpp">
-         <PersistentStrings>
-            <PersistentString
-               value = "numbers[left-1]">
-            </PersistentString>
-            <PersistentString
-               value = "getSign(q[0])">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "Solution::printPascal(int):main.cpp">
          <PersistentStrings>
             <PersistentString
                value = "n+1-i">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "backvertex">
+            </PersistentString>
+            <PersistentString
+               value = "back">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

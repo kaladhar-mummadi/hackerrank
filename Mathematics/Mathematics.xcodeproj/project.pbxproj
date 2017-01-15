@@ -12,6 +12,7 @@
 		9016CBC41E0BF8E5003DC3ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9016CBC31E0BF8E5003DC3ED /* main.cpp */; };
 		9016CBCF1E0BFAD9003DC3ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9016CBCE1E0BFAD9003DC3ED /* main.cpp */; };
 		907051C61E0E63C800DF4413 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 907051C51E0E63C800DF4413 /* main.cpp */; };
+		90958FB61E25FF7B005D26B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90958FB51E25FF7B005D26B4 /* main.cpp */; };
 		9099C9431DD4FBC000473F8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9099C9421DD4FBC000473F8D /* main.cpp */; };
 		9099C9591DD4FCF400473F8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9099C9581DD4FCF400473F8D /* main.cpp */; };
 		9099C9681DD5009F00473F8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9099C9671DD5009F00473F8D /* main.cpp */; };
@@ -71,6 +72,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		907051C11E0E63C800DF4413 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		90958FB11E25FF7B005D26B4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -263,6 +273,8 @@
 		9016CBCE1E0BFAD9003DC3ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		907051C31E0E63C800DF4413 /* Sumar and the Floating Rocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sumar and the Floating Rocks"; sourceTree = BUILT_PRODUCTS_DIR; };
 		907051C51E0E63C800DF4413 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		90958FB31E25FF7B005D26B4 /* Matrix Tracing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Matrix Tracing"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90958FB51E25FF7B005D26B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9099C93F1DD4FBC000473F8D /* Mathematics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mathematics; sourceTree = BUILT_PRODUCTS_DIR; };
 		9099C9421DD4FBC000473F8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9099C94E1DD4FC1A00473F8D /* Find the Point */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Find the Point"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -334,6 +346,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		907051C01E0E63C800DF4413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90958FB01E25FF7B005D26B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -517,7 +536,16 @@
 			children = (
 				907051C51E0E63C800DF4413 /* main.cpp */,
 			);
-			path = "Sumar and the Floating Rocks";
+			name = "Sumar and the Floating Rocks";
+			path = "../Sumar and the Floating Rocks";
+			sourceTree = "<group>";
+		};
+		90958FB41E25FF7B005D26B4 /* Matrix Tracing */ = {
+			isa = PBXGroup;
+			children = (
+				90958FB51E25FF7B005D26B4 /* main.cpp */,
+			);
+			path = "Matrix Tracing";
 			sourceTree = "<group>";
 		};
 		9099C9361DD4FBC000473F8D = {
@@ -527,7 +555,7 @@
 				9099C9C11DD6603800473F8D /* mylib.h */,
 				9099C9551DD4FC9400473F8D /* Fundamentals */,
 				9099C9411DD4FBC000473F8D /* Mathematics */,
-				907051C41E0E63C800DF4413 /* Sumar and the Floating Rocks */,
+				90958FB41E25FF7B005D26B4 /* Matrix Tracing */,
 				9099C9401DD4FBC000473F8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -559,6 +587,7 @@
 				9016CBC11E0BF8E5003DC3ED /* Filling Jars */,
 				9016CBCC1E0BFAD9003DC3ED /* Is Fibo */,
 				907051C31E0E63C800DF4413 /* Sumar and the Floating Rocks */,
+				90958FB31E25FF7B005D26B4 /* Matrix Tracing */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -574,6 +603,7 @@
 		9099C9551DD4FC9400473F8D /* Fundamentals */ = {
 			isa = PBXGroup;
 			children = (
+				907051C41E0E63C800DF4413 /* Sumar and the Floating Rocks */,
 				9016CBCD1E0BFAD9003DC3ED /* Is Fibo */,
 				9016CBC21E0BF8E5003DC3ED /* Filling Jars */,
 				9016CBB71E0BF714003DC3ED /* Halloween party */,
@@ -852,6 +882,23 @@
 			name = "Sumar and the Floating Rocks";
 			productName = "Sumar and the Floating Rocks";
 			productReference = 907051C31E0E63C800DF4413 /* Sumar and the Floating Rocks */;
+			productType = "com.apple.product-type.tool";
+		};
+		90958FB21E25FF7B005D26B4 /* Matrix Tracing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90958FB71E25FF7B005D26B4 /* Build configuration list for PBXNativeTarget "Matrix Tracing" */;
+			buildPhases = (
+				90958FAF1E25FF7B005D26B4 /* Sources */,
+				90958FB01E25FF7B005D26B4 /* Frameworks */,
+				90958FB11E25FF7B005D26B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Matrix Tracing";
+			productName = "Matrix Tracing";
+			productReference = 90958FB31E25FF7B005D26B4 /* Matrix Tracing */;
 			productType = "com.apple.product-type.tool";
 		};
 		9099C93E1DD4FBC000473F8D /* Mathematics */ = {
@@ -1211,6 +1258,11 @@
 						DevelopmentTeam = 7LM26N4V48;
 						ProvisioningStyle = Automatic;
 					};
+					90958FB21E25FF7B005D26B4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7LM26N4V48;
+						ProvisioningStyle = Automatic;
+					};
 					9099C93E1DD4FBC000473F8D = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
@@ -1325,6 +1377,7 @@
 				9016CBC01E0BF8E5003DC3ED /* Filling Jars */,
 				9016CBCB1E0BFAD9003DC3ED /* Is Fibo */,
 				907051C21E0E63C800DF4413 /* Sumar and the Floating Rocks */,
+				90958FB21E25FF7B005D26B4 /* Matrix Tracing */,
 			);
 		};
 /* End PBXProject section */
@@ -1367,6 +1420,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				907051C61E0E63C800DF4413 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90958FAF1E25FF7B005D26B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90958FB61E25FF7B005D26B4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1607,6 +1668,24 @@
 			name = Debug;
 		};
 		907051C81E0E63C800DF4413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90958FB81E25FF7B005D26B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 7LM26N4V48;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90958FB91E25FF7B005D26B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2012,6 +2091,15 @@
 			buildConfigurations = (
 				907051C71E0E63C800DF4413 /* Debug */,
 				907051C81E0E63C800DF4413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90958FB71E25FF7B005D26B4 /* Build configuration list for PBXNativeTarget "Matrix Tracing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90958FB81E25FF7B005D26B4 /* Debug */,
+				90958FB91E25FF7B005D26B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

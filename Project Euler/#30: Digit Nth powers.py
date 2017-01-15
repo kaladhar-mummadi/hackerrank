@@ -10,17 +10,19 @@ def calculatePowers():
         res.append(numbers)
         power += 1
     return res
+
+
 def hackerrank():
     powers = calculatePowers()
     N = int(input())
     i = 2
-    max_limit = powers[N-3][9] * N
+    max_limit = powers[N - 3][9] * N
     total_sum = 0
-    while i <= max_limit :
+    while i <= max_limit:
         number = i
         digit_sum = 0
         while number != 0:
-            digit_sum += powers[N-3][number%10]
+            digit_sum += powers[N - 3][number % 10]
             number //= 10
         if digit_sum == i:
             total_sum += digit_sum
@@ -31,6 +33,7 @@ def hackerrank():
 def projectEuler():
     print("")
 
+
 if __name__ == '__main__':
     hackerrank()
-    #projectEuler()
+    # projectEuler()

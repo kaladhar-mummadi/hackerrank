@@ -33,14 +33,27 @@ public:
             return b;
         return gcd(b%a, a);
     }
-    void takeInput() {
-        int t;
-        int a, b, c;
-        cin >> t;
-        for (int i = 0; i < t; i++) {
-            cin >> a >> b >> c;
-            cout << isPossible(a, b, c) << "\n";
+    int solve(int X){
+        vector<int> number ;
+        while(X){
+            number.push_back(X % 10) ;
+            X /= 10 ;
         }
+        reverse(number.begin(),number.end()) ;
+        int Z = -1 ;
+        
+        if(next_permutation(number.begin(),number.end())){
+            // if next_permutation exists, update value of Z .
+            Z = 0 ;
+            for(int i=0;i<number.size();i++){
+                Z = Z * 10 + number[i] ;
+            }
+        }
+        return Z ; 
+    }
+    
+    void takeInput() {
+        cout << solve(784);
         
     }
 };

@@ -64,6 +64,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Matrix Tracing.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>Maximum Draws.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -148,6 +153,11 @@
 			<true/>
 		</dict>
 		<key>907051C21E0E63C800DF4413</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90958FB21E25FF7B005D26B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

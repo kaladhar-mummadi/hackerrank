@@ -1,8 +1,3 @@
-#!/bin/python3
-
-import sys
-
-
 n = int(input().strip())
 a = [int(a_temp) for a_temp in input().strip().split(' ')]
 arr = [0]*101
